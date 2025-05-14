@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .navbar {
+            display: flex;
+            align-items: center; /* Vertically centers the items */
+            justify-content: space-between; /* Ensures logo and other navbar items are spaced out */
+            padding: 10px; /* Adds some padding to the navbar */
+            background-color: #ffffff; /* Optional: Adds background color to the navbar */
+        }
+        .top-section{
+            width: 950px;
+            height: 44px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .logo {
+            width: 160px; /* Set the width for the logo */
+            height: 40px; /* Set the height for the logo */
+            background-image: url(./fkheaderlogo_exploreplus-44005d.svg);
+            background-size: contain; /* Ensures the logo scales without distorting */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+        .top-section button{
+           
+            width: 44px;
+            height: 40px;
+            border-top-left-radius:4px ;
+            border-bottom-left-radius:4px ;
+            border: none;
+    cursor: pointer;
+    padding: 8px 8px 8px 12px;
+    background-color: transparent;
+        }
+        .top-section input{
+            border: 0;
+    outline: 0 none;
+    font-size: 17px;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="top-section">
+            <div class="logo"></div>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input placeholder="Search for products ,brands and more" class="search-input">
+        </div>
+        </div>
+    </header>
+</body>
+</html>
